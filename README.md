@@ -15,6 +15,16 @@ python NormalGenerator.py
 
 Inside NormalGenerator.py there are 3 examples of how to use N.img2normal that you can modify.
 
-N.img2normal("input/grid.png", normal_strength = 5, blur = 150, size = 4096, invert = False, tiles = {"from": 1, "to": 4, "2d": True})
-N.img2normal("input/single.jpg", normal_strength = 17, blur = 150, invert = False, tiles = {"from": 1, "to": 4, "padding": 150})
-N.img2normal("input/linear.jpg", normal_strength = 17, blur = 150, invert = False, tiles = {"from": 8, "to": 20, "offset": 0.5})
+Il primo parametro è l'immagine che vogliamo convertire in normal map
+
+Facoltativo ma consigliato
+normal_strength è la profondità con cui il tracciato verrà inciso nella normal map
+blur è la larghezza e di conseguenza la morbidezza con cui il tracciato verrà applicato alla normal map. 
+
+Facoltativo
+size è la grandezza (base e altezza) dell'immagine prodotta
+invert può essere impostato a True quando abbiamo uno sfondo nero con un tracciato bianco
+
+tiles = {"from": 1, "to": 4, "2d": True})
+tiles = {"from": 1, "to": 4, "padding": 150})
+tiles = {"from": 8, "to": 20, "offset": 0.5})
