@@ -317,6 +317,6 @@ class Normal():
 
 N = Normal()
 
-N.img2normal("input/grid.png", normal_strength = 5, blur = 150, size = 4096, invert = False, tiles = {"from": 1, "to": 4, "2d": True})
+N.img2normal("input/grid.png", normal_strength = 45, blur = 50, size = 4096, invert = False, tiles = {"from": 1, "to": 4, "2d": True})
 N.img2normal("input/single.jpg", normal_strength = 17, blur = 150, invert = False, tiles = {"from": 1, "to": 4, "padding": 150})
-N.img2normal("input/linear.jpg", normal_strength = 17, blur = 150, invert = False, tiles = {"from": 8, "to": 20, "offset": 0.5})
+N.img2normal("input/linear.jpg", normal_strength = 17, blur = 150, invert = False, tiles = {"from": 8, "to": 7, "offset": 0.5})
