@@ -19,7 +19,7 @@ Inside NormalGenerator.py there are 3 examples of how to use N.img2normal that y
 - `tiles`
   - `from` number of tiles present in the input image
   - `to` number of tiles desired in the final image
-  optional
+  - optional
   - `2d` desc
   - `padding` desc
   - `offset` desc
