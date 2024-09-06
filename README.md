@@ -33,7 +33,7 @@ Inside NormalGenerator.py there are 3 examples of how to use N.img2normal that y
 - **Optional but recommended:**
   - `normal_strength` is the depth with which the path will be etched into the normal map (Low number high incision).
   - `blur` is the width and consequently the softness with which the path will be applied to the normal map (Low number hard curves).
+  - `invert` can be set to `True` for a convex map or `False` for a concave map
 
 - **Optional:**
   - `size` is the width and height of the produced image.
-  - `invert` can be set to `True` when we have a black background with a white path.
