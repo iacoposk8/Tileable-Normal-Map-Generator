@@ -4,8 +4,9 @@ This project provides a tool for creating tileable normal maps from black and wh
 
 | Input | Output |
 | -- | -- |
-| ![Image input](img/single.png) | ![Normal map output](img/Normal_single.png) |
-
+| ![Image input](img/single.jpg) | ![Normal map output](img/Normal_single.png) |
+| ![Image input](img/linear.jpg) | ![Normal map output](img/Normal_linear.png) |
+| ![Image input](img/grid.png) | ![Normal map output](img/Normal_grid.png) |
 
 ## Quick Start
 
