@@ -15,15 +15,15 @@ python NormalGenerator.py
 
 Inside NormalGenerator.py there are 3 examples of how to use N.img2normal that you can modify.
 
-Il primo parametro è l'immagine che vogliamo convertire in normal map
+- **The first parameter** is the image we want to convert into a normal map.
 
-Facoltativo ma consigliato
-normal_strength è la profondità con cui il tracciato verrà inciso nella normal map
-blur è la larghezza e di conseguenza la morbidezza con cui il tracciato verrà applicato alla normal map. 
+- **Optional but recommended:**
+  - `normal_strength` is the depth with which the path will be etched into the normal map.
+  - `blur` is the width and consequently the softness with which the path will be applied to the normal map.
 
-Facoltativo
-size è la grandezza (base e altezza) dell'immagine prodotta
-invert può essere impostato a True quando abbiamo uno sfondo nero con un tracciato bianco
+- **Optional:**
+  - `size` is the width and height of the produced image.
+  - `invert` can be set to `True` when we have a black background with a white path.
 
 tiles = {"from": 1, "to": 4, "2d": True})
 tiles = {"from": 1, "to": 4, "padding": 150})
