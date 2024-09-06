@@ -19,10 +19,10 @@ Inside NormalGenerator.py there are 3 examples of how to use N.img2normal that y
 - `tiles`
   - `from` number of tiles present in the input image
   - `to` number of tiles desired in the final image
-  - optional
-  - `2d` desc
-  - `padding` desc
-  - `offset` desc
+  - **optional**
+  - `2d` set to True if you want the tiles to repeat on both the x and y axis. Otherwise it will only be on the x axis
+  - `padding` space in px between tiles
+  - `offset` I don't remember :D but I seem to remember that it was set to 0.5 for input images that started with half a tile at the left point and set to 0 when the image started with a full tile. I did some tests but the result doesn't change
 
 - **Optional but recommended:**
   - `normal_strength` is the depth with which the path will be etched into the normal map.
