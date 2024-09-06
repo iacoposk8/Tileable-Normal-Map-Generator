@@ -16,6 +16,12 @@ python NormalGenerator.py
 Inside NormalGenerator.py there are 3 examples of how to use N.img2normal that you can modify.
 
 - **The first parameter** is the image we want to convert into a normal map.
+- `tiles`
+  - `from` desc
+  - `to` desc
+  - `2d` desc
+  - `padding` desc
+  - `offset` desc
 
 - **Optional but recommended:**
   - `normal_strength` is the depth with which the path will be etched into the normal map.
@@ -24,7 +30,3 @@ Inside NormalGenerator.py there are 3 examples of how to use N.img2normal that y
 - **Optional:**
   - `size` is the width and height of the produced image.
   - `invert` can be set to `True` when we have a black background with a white path.
-
-tiles = {"from": 1, "to": 4, "2d": True})
-tiles = {"from": 1, "to": 4, "padding": 150})
-tiles = {"from": 8, "to": 20, "offset": 0.5})
